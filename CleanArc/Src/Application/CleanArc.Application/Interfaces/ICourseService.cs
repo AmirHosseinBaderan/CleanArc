@@ -1,6 +1,6 @@
 ﻿using CleanArc.Application.ViewModels;
 
-namespace CleanArc.Application.Services;
+namespace CleanArc.Application.Interfaces;
 
 public interface ICourseService
 {
