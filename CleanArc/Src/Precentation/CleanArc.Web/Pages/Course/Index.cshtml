@@ -1,0 +1,24 @@
+﻿@page
+@model CleanArc.Web.Pages.Course.IndexModel
+@{
+    ViewData["Title"] = "Course";
+}
+
+<div class="container body-content">
+    <div class="row course-content">
+        @foreach (var item in Model.CourseViewModel.Courses)
+        {
+            <div class="col col-md-4 col-sm-6 col-lg-3">
+                <div class="card rounded-5 p-3">
+                    <div class="course-image-container">
+                        <div class="course-image">
+                        </div>
+                    </div>
+                    <p class="text-black text-center">
+                        @item.Name
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
