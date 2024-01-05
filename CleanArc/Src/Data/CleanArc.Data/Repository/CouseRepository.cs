@@ -5,8 +5,6 @@ namespace CleanArc.Data.Repository;
 
 public class CouseRepository(CleanArcContext context) : ICourseRepository
 {
-    public Task<IEnumerable<Course>> GetCoursesAsync()
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Course> GetCourses()
+        => context.Course;
 }

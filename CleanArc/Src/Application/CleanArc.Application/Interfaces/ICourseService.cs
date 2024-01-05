@@ -4,5 +4,5 @@ namespace CleanArc.Application.Interfaces;
 
 public interface ICourseService
 {
-    Task<CourseViewModel> GetCoursesAsync();
+    CourseViewModel GetCourses();
 }

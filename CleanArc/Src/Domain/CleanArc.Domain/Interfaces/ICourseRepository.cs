@@ -2,5 +2,5 @@
 
 public interface ICourseRepository
 {
-    Task<IEnumerable<Course>> GetCoursesAsync();
+    IEnumerable<Course> GetCourses();
 }
