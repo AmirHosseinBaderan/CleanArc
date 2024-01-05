@@ -1,0 +1,9 @@
+﻿@page
+@model CleanArc.Web.Pages.Course.CourseModel
+@{
+    ViewData["Title"] = Model.Course?.Name ?? "Not found";
+}
+
+<h1 class="text-center">@Model.Course?.Name</h1>
+<img class="img-thumbnail" src="~/img/course-img.png" />
+<p class="text-center text-body">@Model.Course?.Description</p>
