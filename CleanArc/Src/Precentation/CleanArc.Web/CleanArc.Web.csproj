@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Data\CleanArc.Data\CleanArc.Data.csproj" />
+    <ProjectReference Include="..\..\IoC\CleanArc.IoC\CleanArc.IoC.csproj" />
   </ItemGroup>
 
 </Project>
