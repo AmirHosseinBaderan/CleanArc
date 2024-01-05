@@ -4,7 +4,7 @@ using CleanArc.Domain.Interfaces;
 
 namespace CleanArc.Application.Services;
 
-public class CouseService(ICourseRepository courseRepository) : ICourseService
+public class CourseService(ICourseRepository courseRepository) : ICourseService
 {
     public CourseViewModel GetCourses()
     {
