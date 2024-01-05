@@ -8,8 +8,10 @@
 
   <ItemGroup>
     <Folder Include="Interfaces\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\CleanArc.Domain\CleanArc.Domain.csproj" />
   </ItemGroup>
 
 </Project>
